@@ -89,6 +89,13 @@ li {
 }
 
 /* Ending About Section */
+/* Starting Course Section */
+
+.grid-four--cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* Ending Course Section */
 /* Ending of Layout */
 
 
