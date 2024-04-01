@@ -71,6 +71,8 @@ li {
 .btn {
     padding: 1.2rem 3.2rem;
     background-color: var(--main-color);
+    /* In inline padding does not work. So, we use inline-block that separate the button from the text */
+    display: inline-block;
 }
 
 /* States */
