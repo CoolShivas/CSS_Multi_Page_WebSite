@@ -387,7 +387,9 @@ main {
 
 /* Starting Course Section */
 
-.section-course {}
+.section-course .grid {
+    gap: 3.2rem;
+}
 
 /* Moving this to reusable section because it is going to repeat. */
 
@@ -402,5 +404,13 @@ main {
     -o-border-radius: 50%;
     font-size: 2.4rem;
 } */
+
+.section-course .course-div:hover {
+    box-shadow: var(--btn-box-shadow);
+}
+
+.section-course .course-div {
+    padding: 3.2rem;
+}
 
 /* Ending Course Section */
