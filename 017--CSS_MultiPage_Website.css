@@ -6,13 +6,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Urbanist", sans-serif;
 }
 
 html {
     font-size: 62.5%;
 }
 
+p,
+li,
+a {
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
 
 /* Theme */
 /* Layout */
@@ -43,6 +58,16 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* Over-riding the padding  */
+    padding: 1.8rem 0;
+}
+
+
+.section-navbar .navbar ul {
+    display: flex;
+    gap: 3.2rem;
+    text-transform: capitalize;
+
 }
 
 /* Ending Navbar Section */
