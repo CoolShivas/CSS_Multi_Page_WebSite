@@ -133,6 +133,22 @@ li {
 
 /* Ending About Section */
 
+/* Starting Course Section */
+
+.fa-solid {
+    padding: 2.44rem;
+    background-color: var(--supporting-color);
+    color: var(--hero-heading--color);
+    font-size: 2.4rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* Ending Course Section */
+
 /* Ending of Module or Reusable */
 
 
@@ -366,7 +382,9 @@ main {
 
 .section-course {}
 
-.fa-solid {
+/* Moving this to reusable section because it is going to repeat. */
+
+/* .fa-solid {
     padding: 2.44rem;
     background-color: var(--hero-heading--color);
     color: white;
@@ -376,6 +394,6 @@ main {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     font-size: 2.4rem;
-}
+} */
 
 /* Ending Course Section */
