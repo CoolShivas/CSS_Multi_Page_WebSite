@@ -180,6 +180,14 @@ main {
     align-items: center;
     /* Putting the gap between grid-template-columns */
     gap: 6.4rem;
+
+    & .hero-subheading {
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 1.7rem;
+        color: var(--bnt-hover-bg-color);
+        font-weight: 700;
+    }
 }
 
 /* Ending Hero Section */
