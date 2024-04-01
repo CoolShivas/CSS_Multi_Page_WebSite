@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    background-color: #D6DAC8;
+
 }
 
 html {
@@ -92,13 +95,12 @@ li {
             content: "";
             position: absolute;
             left: 0;
-            /*Playingwithwidththathelpintransition.*/
+            /*Playing with width that help in transition*/
             /*width: 50%;
           */
             /*width: 100%;
           */
             width: 0%;
-            /* border-bottom: 0.2rem solid var(--main-color); */
             /* border-bottom: 0.2rem solid var(--main-color); */
             border-bottom: 0.2rem solid var(--main-color);
             bottom: -0.3rem;
@@ -118,3 +120,11 @@ li {
 }
 
 /* Ending Navbar Section */
+
+
+
+/* Starting Hero Section */
+
+
+
+/* Ending Hero Section */
