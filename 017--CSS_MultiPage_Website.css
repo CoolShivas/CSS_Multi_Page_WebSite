@@ -164,6 +164,8 @@ main {
             #679eff,
             #b3d2ff,
             #ebf3fe);
+
+    position: relative;
 }
 
 .section-hero--image img {
@@ -205,3 +207,34 @@ main {
 }
 
 /* Ending Hero Section */
+
+
+
+/* Starting Shape Divider Section */
+
+/* Before pasting this shape divider make sure that your parent will be relative. Either it is going to create a problem. As, I have make the main tag in css as position relative.
+ */
+
+.custom-shape-divider-bottom-1711973241 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711973241 svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 77px;
+}
+
+.custom-shape-divider-bottom-1711973241 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/* Ending Shape Divider Section */
