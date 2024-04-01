@@ -42,6 +42,10 @@ li {
     --bg-color: #ffffff;
     --heading-color: #000a19;
     --para-color: #504e4d;
+    --h-color: #0a043c;
+    --white-color: #ffffff;
+    --bnt-hover-bg-color: #003b99;
+    --btn-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /* Layout */
@@ -63,6 +67,12 @@ li {
 }
 
 /* Module / Reusable */
+
+.btn {
+    padding: 1.2rem 3.2rem;
+    background-color: var(--main-color);
+}
+
 /* States */
 
 
