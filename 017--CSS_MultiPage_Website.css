@@ -82,7 +82,13 @@ li {
 }
 
 /* Ending of Hero Section */
+/* Starting About Section */
 
+.grid-three--cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Ending About Section */
 /* Ending of Layout */
 
 
