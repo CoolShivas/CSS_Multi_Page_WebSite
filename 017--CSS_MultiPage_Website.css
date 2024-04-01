@@ -16,6 +16,15 @@ html {
 
 /* Theme */
 /* Layout */
+
+.container {
+    /* max-width: 148rem; */
+    max-width: 128rem;
+    /* max-width: 136rem; */
+    margin: 0 auto;
+    padding: 9.6rem 2.4rem;
+}
+
 /* Module / Reusable */
 /* States */
 
@@ -23,5 +32,10 @@ html {
 
 /* Starting Navbar Section */
 
+.section-navbar {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
 
 /* Ending Navbar Section */
