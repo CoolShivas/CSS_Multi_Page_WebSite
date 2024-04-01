@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Base Rule */
+/* Starting of Base Rule */
 
 * {
     margin: 0;
@@ -33,7 +33,13 @@ li {
     list-style: none;
 }
 
-/* Theme */
+/* Ending of Base Rule */
+
+
+
+
+
+/* Starting of Theme */
 
 :root {
     --main-color: #0062ff;
@@ -49,7 +55,13 @@ li {
     --hero-heading--color: #003b99;
 }
 
-/* Layout */
+/* Ending of Theme */
+
+
+
+
+
+/* Starting of Layout */
 
 .container {
     /* max-width: 148rem; */
@@ -59,6 +71,8 @@ li {
     padding: 9.6rem 2.4rem;
 }
 
+/* Starting of Hero Section */
+
 .grid {
     display: grid;
 }
@@ -67,7 +81,16 @@ li {
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* Module / Reusable */
+/* Ending of Hero Section */
+
+/* Ending of Layout */
+
+
+
+
+
+/* Starting of Module or Reusable */
+/*Starting Button of Hero Section */
 
 .btn {
     padding: 1.2rem 3.2rem;
@@ -82,13 +105,43 @@ li {
     -o-border-radius: 0.6rem;
 }
 
-/* States */
+/*Ending Button of Hero Section */
+
+
+/* Starting About Section */
+
+.section-common-heading {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 3.2rem;
+}
+
+.section-common-subheading {
+    color: var(--heading-color);
+}
+
+/* Ending About Section */
+
+/* Ending of Module or Reusable */
+
+
+
+
+
+/* Starting of States */
+/*Starting Button of Hero Section */
 
 .btn:hover {
     background-color: var(--bnt-hover-bg-color);
     box-shadow: var(--btn-box-shadow);
     cursor: pointer;
 }
+
+/*Ending Button of Hero Section */
+/* Ending of  States */
+
+
+
 
 
 /* Starting Navbar Section */
@@ -152,6 +205,7 @@ li {
 }
 
 /* Ending Navbar Section */
+
 
 
 
@@ -222,6 +276,10 @@ main {
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1711973241 svg {
@@ -237,17 +295,21 @@ main {
 
 
 /* Ending Shape Divider Section */
-
-
 /* Ending Hero Section */
 
 
 
 
+
 /* Starting About Section */
+
+
 /* Ending About Section */
 
 
 
+
+
 /* Starting Course Section */
+
 /* Ending Course Section */
