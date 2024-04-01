@@ -19,6 +19,7 @@ a {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 400;
+    color: var(--para-color);
 }
 
 a {
@@ -76,8 +77,44 @@ li {
 .section-navbar .navbar ul {
     display: flex;
     gap: 3.2rem;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 
+    & li a {
+        /* Over-riding the text-transform  previous mention above. */
+        text-transform: uppercase;
+        color: var(--heading-color);
+        font-weight: 600;
+        display: inline-block;
+        font-size: 1.6rem;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            /*Playingwithwidththathelpintransition.*/
+            /*width: 50%;
+          */
+            /*width: 100%;
+          */
+            width: 0%;
+            /* border-bottom: 0.2rem solid var(--main-color); */
+            /* border-bottom: 0.2rem solid var(--main-color); */
+            border-bottom: 0.2rem solid var(--main-color);
+            bottom: -0.3rem;
+
+            transition: all 0.3s linear;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            -ms-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+        }
+    }
+
+    /* Hovering the after psudeo element  */
+    & li a:hover:after {
+        width: 100%;
+    }
 }
 
 /* Ending Navbar Section */
