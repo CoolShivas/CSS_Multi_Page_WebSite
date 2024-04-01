@@ -324,10 +324,36 @@ main {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+
+    /* Hover only work when parent have the transition effect. */
+
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
 }
 
 .section-about .about-div {
     text-align: center;
+}
+
+.section-about .grid {
+    gap: 6.4rem;
+}
+
+.about-div .icon:hover img {
+    /* transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg); */
+
+    /* Instead of above long code. We preferred the rotate directly.*/
+
+    rotate: 360deg;
+
+    background: linear-gradient(to right, #0575e6, #021b79);
 }
 
 /* Ending About Section */
