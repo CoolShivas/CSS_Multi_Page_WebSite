@@ -71,12 +71,23 @@ li {
 .btn {
     padding: 1.2rem 3.2rem;
     background-color: var(--main-color);
-    /* In inline padding does not work. So, we use inline-block that separate the button from the text */
+    /*Ininlinepaddingdoesnotwork.So,weuseinline-blockthatseparatethebuttonfromthetext*/
     display: inline-block;
+    color: var(--white-color);
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
 }
 
 /* States */
 
+.btn:hover {
+    background-color: var(--bnt-hover-bg-color);
+    box-shadow: var(--btn-box-shadow);
+    cursor: pointer;
+}
 
 
 /* Starting Navbar Section */
