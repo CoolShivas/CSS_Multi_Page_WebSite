@@ -176,4 +176,8 @@ main {
     -o-transform: scaleX(-1);
 }
 
+.section-hero .grid {
+    align-items: center;
+}
+
 /* Ending Hero Section */
