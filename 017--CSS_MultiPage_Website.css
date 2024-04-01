@@ -120,6 +120,11 @@ li {
     color: var(--heading-color);
 }
 
+.section-common--title {
+    margin: 2.4rem 0 1.2rem 0;
+    font-size: 2rem;
+}
+
 /* Ending About Section */
 
 /* Ending of Module or Reusable */
@@ -313,6 +318,10 @@ main {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.section-about .about-div {
+    text-align: center;
 }
 
 /* Ending About Section */
