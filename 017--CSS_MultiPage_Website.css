@@ -505,7 +505,8 @@ main {
 /* Ending Choose-Left--Div Section */
 /* Starting Center Image Section  */
 
-.choose-center--div {
+.choose-center--div,
+figure {
     display: flex;
     justify-content: center;
     align-items: center;
