@@ -533,8 +533,6 @@ figure {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     z-index: -1;
-    animation: circle 5s linear infinite;
-    -webkit-animation: circle 5s linear infinite;
 }
 
 
@@ -546,6 +544,10 @@ figure {
     border: 0.2rem solid var(--supporting-color);
 }
 
+.choose-center--div figure::before {
+    animation: circle 5s linear infinite;
+    -webkit-animation: circle 5s linear infinite;
+}
 
 @keyframes circle {
     0% {
