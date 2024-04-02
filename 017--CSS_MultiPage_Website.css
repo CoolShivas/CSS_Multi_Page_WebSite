@@ -490,7 +490,7 @@ main {
     -o-border-radius: 50%;
 }
 
-.section-why--choose .why-choose--div {
+.section-why--choose .text-align--right .why-choose--div {
     display: flex;
     flex-direction: column;
     justify-content: start;
