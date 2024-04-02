@@ -504,6 +504,13 @@ main {
 /* Starting Choose-Left--Div Section */
 /* Ending Choose-Left--Div Section */
 /* Starting Center Image Section  */
+
+.choose-center--div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Ending Center Image Section  */
 /* Starting Choose-Right--Div Section  */
 /* Ending Choose-Right--Div Section  */
