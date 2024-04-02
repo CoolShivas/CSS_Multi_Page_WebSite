@@ -33,6 +33,20 @@ li {
     list-style: none;
 }
 
+h1 {}
+
+h2 {}
+
+h3 {
+    text-transform: capitalize;
+}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
 /* Ending of Base Rule */
 
 
@@ -451,3 +465,22 @@ main {
 }
 
 /* Ending Course Section */
+
+
+
+/* Starting Service Section */
+/* Starting Why Choose Section */
+
+.section-why--choose {}
+
+/* Starting Choose-Left--Div Section */
+/* Ending Choose-Left--Div Section */
+/* Starting Center Image Section  */
+/* Ending Center Image Section  */
+/* Starting Choose-Right--Div Section  */
+/* Ending Choose-Right--Div Section  */
+
+
+
+/* Ending Why Choose Section */
+/* Ending Service Section */
