@@ -513,7 +513,8 @@ figure {
     position: relative;
 }
 
-.choose-center--div figure::before {
+.choose-center--div figure::before,
+.choose-center--div figure::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -523,17 +524,27 @@ figure {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-
-    background-color: orange;
-    width: 45rem;
-    height: 45rem;
+    background-color: blue;
+    width: 43rem;
+    height: 43rem;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     z-index: -1;
+
 }
+
+
+.choose-center--div figure::after {
+    width: 48rem;
+    height: 48rem;
+    background-color: orange;
+    z-index: -2;
+    border: 0.2rem solid var(--supporting-color);
+}
+
 
 /* Ending Center Image Section  */
 /* Starting Choose-Right--Div Section  */
