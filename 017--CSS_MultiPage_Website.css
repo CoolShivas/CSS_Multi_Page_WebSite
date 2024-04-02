@@ -471,7 +471,6 @@ main {
 /* Starting Service Section */
 /* Starting Why Choose Section */
 
-.section-why--choose {}
 
 .common-text--highlight {
     background-color: var(--supporting-color);
@@ -496,6 +495,10 @@ main {
     justify-content: start;
     align-items: end;
     text-align: right;
+}
+
+.section-why--choose .grid {
+    gap: 6rem;
 }
 
 /* Starting Choose-Left--Div Section */
