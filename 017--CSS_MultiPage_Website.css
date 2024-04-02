@@ -533,7 +533,8 @@ figure {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     z-index: -1;
-
+    animation: circle 5s linear infinite;
+    -webkit-animation: circle 5s linear infinite;
 }
 
 
@@ -543,6 +544,29 @@ figure {
     background-color: orange;
     z-index: -2;
     border: 0.2rem solid var(--supporting-color);
+}
+
+
+@keyframes circle {
+    0% {
+        background-color: #b3d0ff;
+    }
+
+    25% {
+        background-color: #80b1ff;
+    }
+
+    50% {
+        background-color: #4d91ff;
+    }
+
+    75% {
+        background-color: #99c0ff;
+    }
+
+    100% {
+        background-color: #3381ff;
+    }
 }
 
 
