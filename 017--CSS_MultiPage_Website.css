@@ -473,6 +473,31 @@ main {
 
 .section-why--choose {}
 
+.common-text--highlight {
+    background-color: var(--supporting-color);
+    width: 5rem;
+    aspect-ratio: 1;
+    font-size: 2.4rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.section-why--choose .why-choose--div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    text-align: right;
+}
+
 /* Starting Choose-Left--Div Section */
 /* Ending Choose-Left--Div Section */
 /* Starting Center Image Section  */
