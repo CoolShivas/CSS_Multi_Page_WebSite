@@ -697,6 +697,7 @@ figure img {
 
 /* Starting Footer Section  */
 
+
 footer {
     background-color: var(--footer-bg-color);
 }
@@ -710,10 +711,8 @@ footer * {
     font-weight: 700;
 }
 
-
+/* 
 .footer-1--div .social-footer--icons .fa-brands {
-    /*background-color: orange;
-    */
     background-color: var(--bnt-hover-bg-color);
     width: 4rem;
     aspect-ratio: 1;
@@ -722,9 +721,7 @@ footer * {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    /*display: grid;
-    place-items: center;
-    */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -745,5 +742,47 @@ footer .footer-1--div .fa-brands:hover {
     color: var(--supporting-color);
     rotate: 360deg;
 }
+
+.footer-1--div p {
+    margin: 1rem 0 3.2rem 0;
+}
+ */
+
+
+/* Now, we will see the nested classes of the above code. */
+
+.footer-1--div {
+    & .social-footer--icons {
+        display: flex;
+        gap: 2.4rem;
+
+        & .fa-brands {
+            width: 5rem;
+            aspect-ratio: 1;
+            background-color: var(--supporting-color);
+            color: var(--bnt-hover-bg-color);
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s linear;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            -ms-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+
+            &:hover {
+                color: var(--supporting-color);
+                background-color: var(--bnt-hover-bg-color);
+                rotate: 360deg;
+            }
+        }
+    }
+}
+
 
 /* Ending Footer Section */
