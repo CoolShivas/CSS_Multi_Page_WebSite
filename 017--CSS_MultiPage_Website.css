@@ -59,7 +59,8 @@ h6 {}
     --main-color: #0062ff;
     --supporting-color: #ebf3fe;
     --font-color: #424242;
-    --bg-color: #ffffff;
+    /* --bg-color: #ffffff; */
+    --bg-color: #f7fcff;
     --heading-color: #000a19;
     --para-color: #504e4d;
     --h-color: #0a043c;
@@ -477,6 +478,10 @@ main {
 .course-div:nth-child(7) .icon .fa-solid {
     background-color: #dce9fa;
     color: #1450a3;
+}
+
+.section-course {
+    background-color: var(--bg-color);
 }
 
 /* Ending Course Section */
