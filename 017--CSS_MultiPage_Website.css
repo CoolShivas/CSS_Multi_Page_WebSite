@@ -705,5 +705,21 @@ footer * {
     color: var(--white-color);
 }
 
+.footer-subheading {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.footer-1--div .social-footer--icons .fa-brands {
+    background-color: orange;
+    width: 4rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
 
 /* Ending Footer Section */
