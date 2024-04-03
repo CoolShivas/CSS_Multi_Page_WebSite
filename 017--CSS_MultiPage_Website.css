@@ -68,6 +68,7 @@ h6 {}
     --bnt-hover-bg-color: #003b99;
     --btn-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     --hero-heading--color: #003b99;
+    --footer-bg-color: #040d12;
 }
 
 /* Ending of Theme */
@@ -695,5 +696,14 @@ figure img {
 
 
 /* Starting Footer Section  */
+
+footer {
+    background-color: var(--footer-bg-color);
+}
+
+footer * {
+    color: var(--white-color);
+}
+
 
 /* Ending Footer Section */
