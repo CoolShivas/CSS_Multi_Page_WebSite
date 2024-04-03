@@ -120,7 +120,7 @@ below extra space reducing now. */
 .section-about .container:first-child,
 .section-blog .container:first-child,
 .section-course .container:first-child,
-.section-contact-homepage .container:first-child,
+.section-contact--homepage .container:first-child,
 .section-why--choose .container:first-child {
     padding: 6.4rem 0 2.4rem 0;
 }
@@ -634,7 +634,7 @@ figure img {
 /* Starting Contact Home Section  */
 
 
-.section-contact-homepage {
+.section-contact--homepage {
     width: 60%;
     /*height: 30rem;
     */
@@ -647,15 +647,18 @@ figure img {
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
+
+    padding: 0 3.2rem;
 }
 
 
-.section-contact-homepage .grid {
+.section-contact--homepage .grid {
     align-items: center;
+    gap: 6.4rem;
 }
 
 
-.section-contact-homepage img {
+.section-contact--homepage img {
     width: 100%;
     aspect-ratio: 1;
 }
@@ -670,16 +673,16 @@ figure img {
 }
 
 
-.section-contact-homepage .btn {
+.section-contact--homepage .btn {
     padding: 0 3rem;
 }
 
-.section-contact-homepage .btn a {
+.section-contact--homepage .btn a {
     color: var(--white-color);
     text-transform: capitalize;
 }
 
-.section-contact-homepage .btn a .fa-solid {
+.section-contact--homepage .btn a .fa-solid {
     color: var(--white-color);
     background-color: var(--main-color);
 }
