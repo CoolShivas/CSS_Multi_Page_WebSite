@@ -758,6 +758,8 @@ footer .footer-1--div .fa-brands:hover {
 /* Now, we will see the nested classes of the above code. */
 
 .footer-1--div {
+    text-align: left;
+
     & .social-footer--icons {
         display: flex;
         gap: 2.4rem;
@@ -792,5 +794,8 @@ footer .footer-1--div .fa-brands:hover {
     }
 }
 
+footer .grid {
+    text-align: right;
+}
 
 /* Ending Footer Section */
