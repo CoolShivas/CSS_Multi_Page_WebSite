@@ -596,7 +596,9 @@ figure img {
 
 /* Ending Choose-Right--Div Section  */
 
-
+.section-why--choose .container:first-child {
+    padding: 6.4rem 0 2.4rem 0;
+}
 
 /* Ending Why Choose Section */
 /* Ending Service Section */
@@ -658,7 +660,6 @@ figure img {
     color: var(--white-color);
     background-color: var(--main-color);
 }
-
 
 
 /* Ending Contact Home Section  */
