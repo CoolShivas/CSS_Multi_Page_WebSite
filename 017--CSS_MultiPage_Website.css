@@ -629,14 +629,15 @@ figure img {
     height: auto;
 }
 
-/*
+.contact-title {
+    font-size: 3.8rem;
+    line-height: 1.2;
+}
+
 .contact-content p {
     margin: 1.2rem 0 2.4rem 0;
 }
 
-.section-contact-homepage img {
-    width: 90%;
-    height: auto;
-} */
+
 
 /* Ending Contact Home Section  */
