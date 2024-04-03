@@ -710,8 +710,10 @@ footer * {
     font-weight: 700;
 }
 
+
 .footer-1--div .social-footer--icons .fa-brands {
-    background-color: orange;
+    /* background-color: orange; */
+    background-color: var(--bnt-hover-bg-color);
     width: 4rem;
     aspect-ratio: 1;
     border-radius: 50%;
@@ -722,11 +724,14 @@ footer * {
 
     /* display: grid;
     place-items: center; */
-
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+footer .footer-1--div .social-footer--icons {
+    display: flex;
+    gap: 1.4rem;
 }
 
 /* Ending Footer Section */
