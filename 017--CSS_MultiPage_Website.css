@@ -720,8 +720,12 @@ footer * {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 
-    display: grid;
-    place-items: center;
+    /* display: grid;
+    place-items: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
