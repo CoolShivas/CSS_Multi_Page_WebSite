@@ -650,6 +650,11 @@ figure img {
     -o-border-radius: 2rem;
 
     padding: 0 3.2rem;
+    position: relative;
+    bottom: -25rem;
+    /* background-color: orange; */
+    background-color: var(--white-color);
+
 }
 
 
@@ -700,6 +705,7 @@ figure img {
 
 footer {
     background-color: var(--footer-bg-color);
+    padding-top: 15rem;
 }
 
 footer * {
@@ -762,10 +768,10 @@ footer .footer-1--div .fa-brands:hover {
             background-color: var(--supporting-color);
             color: var(--bnt-hover-bg-color);
             border-radius: 50%;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -ms-border-radius: 50%;
-            -o-border-radius: 50%;
+            -webkit-border-radius: ;
+            -moz-border-radius: ;
+            -ms-border-radius: ;
+            -o-border-radius: ;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -774,8 +780,9 @@ footer .footer-1--div .fa-brands:hover {
             -moz-transition: all 0.3s linear;
             -ms-transition: all 0.3s linear;
             -o-transition: all 0.3s linear;
+            &:hover;
 
-            &:hover {
+                {
                 color: var(--supporting-color);
                 background-color: var(--bnt-hover-bg-color);
                 rotate: 360deg;
