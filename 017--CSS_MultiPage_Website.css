@@ -720,6 +720,9 @@ footer * {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 
+    display: grid;
+    place-items: center;
+
 }
 
 /* Ending Footer Section */
