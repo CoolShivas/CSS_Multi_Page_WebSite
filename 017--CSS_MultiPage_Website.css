@@ -110,6 +110,21 @@ h6 {}
 }
 
 /* Ending Course Section */
+
+/* Targeting each section first container only for 
+below extra space reducing now. */
+
+
+
+.section-about .container:first-child,
+.section-blog .container:first-child,
+.section-course .container:first-child,
+.section-contact-homepage .container:first-child,
+.section-why--choose .container:first-child {
+    padding: 6.4rem 0 2.4rem 0;
+}
+
+
 /* Ending of Layout */
 
 
@@ -596,9 +611,12 @@ figure img {
 
 /* Ending Choose-Right--Div Section  */
 
+
+/* 
 .section-why--choose .container:first-child {
     padding: 6.4rem 0 2.4rem 0;
-}
+} */
+
 
 /* Ending Why Choose Section */
 /* Ending Service Section */
