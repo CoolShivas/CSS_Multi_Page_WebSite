@@ -803,3 +803,18 @@ footer .grid {
 }
 
 /* Ending Footer Section */
+
+
+/* Starting Blog Section */
+
+.section_blogs {
+    background-color: var(--supporting-color);
+
+    & img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Ending Blog Section */
