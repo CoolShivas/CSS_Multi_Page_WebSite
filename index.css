@@ -119,13 +119,27 @@ below extra space reducing now. */
 
 
 
-.section-about .container:first-child,
+/* .section-about .container:first-child,
 .section-blog .container:first-child,
 .section-course .container:first-child,
 .section-contact--homepage .container:first-child,
-.section-why--choose .container:first-child {
+.section-why--choose .container:first-child,
+.section-contact .container:first-child {
+    padding: 6.4rem 0 2.4rem 0;
+}  */
+
+/* So, the above code smae thing is repeating again 
+and again. We can merge it. */
+
+:is(.section-about,
+    .section-blog,
+    .section-course,
+    .section-contact--homepage,
+    .section-why--choose,
+    .section-contact).container:first-child {
     padding: 6.4rem 0 2.4rem 0;
 }
+
 
 
 /* Ending of Layout */
@@ -889,6 +903,9 @@ textarea {
     letter-spacing: 0.1rem;
 }
 
+.btn-submit {
+    font-size: 1.8rem;
+}
 
 
 /* Ending Actual Contact section */
