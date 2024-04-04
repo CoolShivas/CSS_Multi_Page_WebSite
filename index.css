@@ -865,4 +865,16 @@ footer .grid {
     margin-bottom: 3.2rem;
 }
 
+label {
+    /* We know that label is an inline element. So, make it to block*/
+    display: block;
+    text-transform: capitalize;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1.4rem 2.4rem;
+}
+
 /* Ending Actual Contact section */
