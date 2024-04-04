@@ -215,6 +215,7 @@ below extra space reducing now. */
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
         rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color: #C0D6E8;
 }
 
 
@@ -408,6 +409,10 @@ main {
     rotate: 360deg;
 
     background: linear-gradient(to right, #0575e6, #021b79);
+}
+
+.section-about {
+    background-color: #E5DDC5;
 }
 
 /* Ending About Section */
@@ -622,7 +627,6 @@ figure img {
 .section-why--choose .container:first-child {
     padding: 6.4rem 0 2.4rem 0;
 } */
-
 
 /* Ending Why Choose Section */
 /* Ending Service Section */
