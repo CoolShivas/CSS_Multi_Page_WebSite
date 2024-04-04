@@ -971,3 +971,27 @@ textarea:focus-visible {
 
 
 /* *********************************************************** */
+
+
+
+
+/* Starting Media Queries Section */
+
+/* What is media querie ? */
+/* Writting a piece of code again and again for different desktop or pixels or mobile and all. */
+
+@media (max-width:1366px) {
+
+    /* Whatever code we have written above for the 24 inch desktop.  */
+    /* MY laptop screen is 1366px */
+    html {
+        font-size: 56.25%;
+        /* 1rem = 9px */
+    }
+
+    .section-hero img {
+        width: 90%;
+    }
+}
+
+/* Ending Media Queries Section */
