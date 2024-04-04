@@ -915,3 +915,54 @@ textarea {
 }
 
 /* Ending Actual Contact section */
+
+
+
+
+/* *********************************************************** */
+
+/* Now, Making the website Responsive. */
+
+/* *********************************************************** */
+
+
+
+/* Starting of Scrollbar Section */
+
+
+::-webkit-scrollbar {
+    /* Giving width to scrollbar */
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    /* Giving bg colour to scrollbar track. */
+    /* background: orange; */
+    background: var(--supporting-color);
+}
+
+
+
+::-webkit-scrollbar-thumb {
+    /*Giving-bg-colour-and-border-radius-to-scrollbar-thumb*/
+    background: var(--main-color);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+
+::-webkit-scrollbar-thumb:hover {
+    /* Giving hover to scrollbar thumb. */
+    background: var(--heading-color);
+}
+
+/* Ending of Scrollbar Section */
+
+
+
+/* *********************************************************** */
