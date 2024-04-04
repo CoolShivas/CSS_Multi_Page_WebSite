@@ -907,5 +907,10 @@ textarea {
     font-size: 1.8rem;
 }
 
+.section-contact--Actual {
+    & .grid {
+        gap: 6.4rem;
+    }
+}
 
 /* Ending Actual Contact section */
