@@ -1013,6 +1013,20 @@ textarea:focus-visible {
         & .grid-two--cols {
             grid-template-columns: 1fr;
         }
+
+        /* Taking columns and image one upon one */
+        & .section-hero--content {
+            order: 2;
+        }
+
+        & .section-hero--image {
+            order: 1;
+        }
+
+        /* According to pexels fixing the size of the image of hero section */
+        & img {
+            width: 80%;
+        }
     }
 }
 
