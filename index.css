@@ -239,7 +239,7 @@ and again. We can merge it. */
     justify-content: space-between;
     align-items: center;
     /* Over-riding the padding  */
-    padding: 1.8rem 0;
+    padding: 1.8rem 2.4rem;
 }
 
 
@@ -1052,6 +1052,22 @@ textarea:focus-visible {
     /* Giving padding to the hero button bottom */
     .section-hero {
         padding-bottom: 10rem;
+    }
+
+    .section-navbar .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & .navbar-brand img {
+        width: 30%;
+        height: auto;
+    }
+
+    & .navbar-brand {
+        text-align: center;
     }
 }
 
