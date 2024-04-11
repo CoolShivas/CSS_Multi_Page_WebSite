@@ -1041,6 +1041,10 @@ textarea:focus-visible {
             width: 80%;
         }
     }
+    .section-about .container{
+     display: flex;
+     flex-direction: column;
+    }
 }
 
 
@@ -1068,7 +1072,21 @@ textarea:focus-visible {
 
     & .navbar-brand {
         text-align: center;
+        margin-bottom: 2.4rem;
     }
+
+    .section-about .container {
+        text-align: center;
+    }
+
+    .section-about .container .section-common-heading {
+        margin-bottom: 2rem;
+    }
+
+    .section-about .container .grid .about-div {
+        text-align: left;
+    }
+
 }
 
 /* Ending Media Queries Section */
