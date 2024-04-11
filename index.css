@@ -13,7 +13,7 @@
 html {
     font-size: 62.5%;
     /* scroll-behavior: smooth; */
-scroll-snap-type: Y mandatory;
+scroll-snap-type: Y proximity;
 }
 
 p,
@@ -82,6 +82,7 @@ h6 {}
 
 /* Starting of Layout */
 /* It will control the scroll */
+
 section{
     scroll-snap-align: start;
 }
