@@ -1015,6 +1015,24 @@ textarea:focus-visible {
     }
 }
 
+@media (width<= 1100px){
+    .section-why--choose{
+        & .choose-center--div{
+            & figure::before{
+                width: 0;
+                height: 0;
+                background-color: transparent;
+                padding: 0;
+            }
+            & figure::after{
+                width: 0;
+                height: 0;
+                background-color: transparent;
+                padding: 0;
+            }
+        }
+    }
+}
 
 @media (width <=998px) {
     .section-hero {
