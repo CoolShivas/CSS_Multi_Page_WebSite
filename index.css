@@ -1102,7 +1102,8 @@ textarea:focus-visible {
 
 
 @media (width <=768px) {
-    .grid-two--cols .grid-three--cols {
+    .grid-two--cols, 
+    .grid-three--cols {
         grid-template-columns: 1fr;
     }
 
@@ -1140,6 +1141,11 @@ textarea:focus-visible {
         text-align: left;
     }
 
+    .section-why--choose .text-align--right .why-choose--div{
+    align-items: start;
+    text-align: left;
+}
+    }
 }
 
 /* Ending Media Queries Section */
