@@ -1017,6 +1017,14 @@ textarea:focus-visible {
 
 @media (width<= 1100px){
     .section-why--choose{
+        & .choose-left--div{
+            order: 2;
+        }
+
+        & .choose-right--div{
+            order: 36;
+        }
+
         & .choose-center--div{
             & figure::before{
                 width: 0;
