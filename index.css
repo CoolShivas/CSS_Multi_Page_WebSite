@@ -1041,10 +1041,16 @@ textarea:focus-visible {
             width: 80%;
         }
     }
+    
     .section-about .container{
      display: flex;
      flex-direction: column;
     }
+
+    .section-course .grid-four--cols{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
 }
 
 
