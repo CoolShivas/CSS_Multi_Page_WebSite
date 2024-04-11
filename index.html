@@ -12,6 +12,8 @@
 
 
     <link rel="stylesheet" href="index.css">
+<!-- Pasting the link of AOS Plugin for animation in the head tag -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -21,7 +23,7 @@
     <!-- Starting Navbar Section -->
     <header class="section-navbar">
         <div class="container">
-            <div class="navbar-brand">
+            <div class="navbar-brand" data-aos="fade-up">
                 <a href="index.html">
                     <img src="Thums up.png" alt="image not found" width="30%" height="auto">
                 </a>
@@ -74,7 +76,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="section-hero--image">
+                <div class="section-hero--image"  data-aos="fade-right">
                     <figure>
                         <img src="/Code.png" alt="a 3d character doing coding stuff">
                     </figure>
@@ -470,6 +472,12 @@
 
     <!-- Ending Footer Section -->
 
+    <!-- Pasting the AOS Plugin Script from the github link(i.e, from https://github.com/michalsnik/aos) for the animation.
+    Now use the code for animation purpose.-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
